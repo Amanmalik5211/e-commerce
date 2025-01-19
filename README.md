@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+A responsive e-commerce dashboard built with Next.js and Material-UI.
 
-First, run the development server:
+## Tech Stack
 
-```bash
+- Next.js 14 (App Router)
+- Material-UI (MUI)
+- TypeScript
+
+## Key Features
+
+- Fully responsive design (Mobile, Tablet, Desktop)
+- Modern UI with smooth animations
+- Server-side rendering
+- Type-safe development
+- No external CSS libraries used
+
+## Project Structure
+
+src/
+
+├── app/
+
+│ ├── layout.tsx
+
+│ └── page.tsx
+
+├── components/
+
+│ ├── layout/
+
+│ │ └── Header.tsx
+
+│ └── ui/
+
+│ ├── BrandCard.tsx
+
+│ └── SearchBar.tsx
+
+├── lib/
+
+│ └── data.ts
+
+└── types/
+
+└── index.ts
+
+
+## Setup Instructions
+
+1. Clone the repository
+
+bash
+
+git clone https://github.com/Amanmalik5211/e-commerce.git
+
+
+2. Install dependencies
+
+bash
+
+npm install
+
+
+3. Run development server
+
+bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Implementation Details
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Responsive Design**
+   - Mobile-first approach
+   - Breakpoints: xs, sm, md, lg, xl
+   - Fluid typography and spacing
 
-## Learn More
+2. **Components**
+   - Header with responsive search
+   - Product cards with animations
+   - Featured brands section
+   - Special offers banner
 
-To learn more about Next.js, take a look at the following resources:
+3. **UI/UX Features**
+   - Interactive hover effects
+   - Smooth transitions
+   - Consistent spacing
+   - Accessible design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- No external CSS libraries used
+- Pure MUI styling with styled components
+- TypeScript for type safety
+- Next.js App Router for routing
