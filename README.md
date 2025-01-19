@@ -18,32 +18,48 @@ A responsive e-commerce dashboard built with Next.js and Material-UI.
 ## Project Structure
 
 src/
+
 ├── app/
+
 │ ├── layout.tsx
+
 │ └── page.tsx
+
 ├── components/
+
 │ ├── layout/
+
 │ │ └── Header.tsx
+
 │ └── ui/
+
 │ ├── BrandCard.tsx
+
 │ └── SearchBar.tsx
+
 ├── lib/
+
 │ └── data.ts
+
 └── types/
+
 └── index.ts
 
 
 ## Setup Instructions
 
 1. Clone the repository
+
    git clone https://github.com/Amanmalik5211/e-commerce.git
 
 
 2. Install dependencies
+
    npm install
 
 
 3. Run development server
+
    npm run dev
 
 
